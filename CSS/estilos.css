@@ -1,0 +1,57 @@
+img{
+    width: 1500px;
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.titulo{
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.informacion{
+    font-size: 50px;
+    text-align: center;
+}
+.informacion2{
+    font-size: 50px;
+    text-align: center;
+    width: 1515px;
+}
+.informacion3{
+    font-size: 50px;
+    text-align: center;
+    width: 1549px;
+}
+.precio{
+    text-align: center;
+    font-size: 100px;
+}
+
+div img{
+    width: 200px;
+}
+
+section{
+    display: flex;
+}
+
+.img01{
+    margin-left: 280px;
+}
+
+.img8{
+    height: 275px;
+}
+
+.souvenir{
+    text-align: center;
+    font-size: 100px;
+}
+.suvernir{
+    margin-left: 1100px;
+    height: 350px;
+    width: 250px
+}
