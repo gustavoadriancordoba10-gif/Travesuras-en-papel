@@ -175,4 +175,36 @@ section{
         max-width: 160px !important;
         margin: 0 auto !important;
     }
+    /* CONTACTO + UBICACIÓN EN CELULAR */
+
+section:last-of-type {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section:last-of-type > div {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+}
+
+.contacto,
+.ubi {
+    font-size: 35px !important;
+    margin: 10px 0 !important;
+    text-align: center;
+}
+
+.num {
+    font-size: 22px !important;
+}
+
+section:last-of-type iframe {
+    width: 100% !important;
+    height: 220px !important;
+    margin: 0 !important;
+}
+
 }
