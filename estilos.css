@@ -55,3 +55,82 @@ section{
     height: 350px;
     width: 250px
 }
+
+@media (max-width: 600px) {
+
+    /* LOGO */
+    body > img {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        display: block !important;
+    }
+
+    /* TITULOS Y TEXTOS */
+    .titulo {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    .informacion,
+    .informacion2,
+    .informacion3 {
+        width: 100% !important;
+        font-size: 20px !important;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .precio {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    /* FOTOS */
+    section {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    section div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    section div img,
+    div img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 160px !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .img8 {
+        height: auto !important;
+    }
+
+    .img01 {
+        margin: 5px 0 15px !important;
+        font-size: 15px !important;
+        text-align: center !important;
+    }
+
+    /* SOUVENIRS */
+    .souvenir {
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    .suvernir {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 160px !important;
+        margin: 0 auto !important;
+    }
+}
