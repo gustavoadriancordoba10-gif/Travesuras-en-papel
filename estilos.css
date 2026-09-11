@@ -21,9 +21,9 @@ img{
     width: 1515px;
 }
 
-.Precio8{
-    text-align: center;
+.cantidad{
     font-size: 100px;
+    text-align: center;
 }
 
 div img{
@@ -93,6 +93,10 @@ section{
     font-size: 70px; !important;
     margin-left: 40px ;
     
+}
+.yo{
+    text-align: center;
+    font-size: 20px;
 }
 
 
@@ -223,3 +227,13 @@ section{
 .num {
     font-size: 22px !important;
 }
+.cantidad {
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.yo {
+    font-size: 14px !important;
+    text-align: center;
+}
+
