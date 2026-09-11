@@ -84,14 +84,15 @@ section{
     padding: 0;
 }
 
-.mapa {
+.mapa{
     display: block;
     color: inherit;
-    margin-right: -550px;
 }
+
 .num{
-    font-size: 70px;
+    font-size: 70px; !important;
     margin-left: 40px ;
+    
 }
 
 
