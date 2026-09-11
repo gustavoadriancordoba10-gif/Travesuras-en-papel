@@ -67,29 +67,31 @@ section{
 
 .bloque-contacto {
     text-align: left;
+    width: 50%;
 }
 
 .bloque-ubicacion {
-    text-align: center;
-    margin-right: 50px;
-    margin-left: auto;
-    margin-right: 30px;
+    text-align: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .contacto,
-.ubi {
+.mapa {
     font-size: 100px;
     margin: 0;
+    padding: 0;
 }
 
-.num {
-    font-size: 50px;
-    margin-left: 70px;
-}
-
-.bloque-ubicacion iframe {
+.mapa {
     display: block;
-    margin: 0 auto;
+    color: inherit;
+    margin-right: -550px;
+}
+.num{
+    font-size: 70px;
+    margin-left: 40px ;
 }
 
 
@@ -177,34 +179,46 @@ section{
     }
     /* CONTACTO + UBICACIÓN EN CELULAR */
 
-section:last-of-type {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.contacto-ubicacion {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px 10px !important;
+    box-sizing: border-box;
 }
 
-section:last-of-type > div {
-    width: 50%;
-    margin: 0;
-    text-align: center;
+.bloque-contacto,
+.bloque-ubicacion {
+    width: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.bloque-contacto {
+    text-align: left !important;
+}
+
+.bloque-ubicacion {
+    text-align: right !important;
 }
 
 .contacto,
-.ubi {
+.mapa {
     font-size: 35px !important;
-    margin: 10px 0 !important;
-    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mapa {
+    display: block !important;
+    color: inherit;
+    text-decoration: underline;
 }
 
 .num {
     font-size: 22px !important;
-}
-
-section:last-of-type iframe {
-    width: 100% !important;
-    height: 220px !important;
-    margin: 0 !important;
-}
-
 }
